@@ -1,0 +1,7 @@
+ Xrm.WebApi.online.retrieveRecord("systemuser", guidId, "?$select=_new_businessline_value&$expand=new_BusinessLine($select=new_test)").then(
+                function success(result) {
+                    //success
+                    },function (error) {
+                     // handle error conditions
+                    }
+                   ):
